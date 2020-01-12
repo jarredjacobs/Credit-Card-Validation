@@ -1,0 +1,149 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.cardEntry {
+  position: relative;
+  width: 692px;
+  height: 319px;
+  margin: auto;
+  margin-top: 30px;
+
+  background: #f3f3f3;
+}
+
+.inputBlock {
+  position: absolute;
+  left: 109px;
+  top: 105px;
+
+  width: 484px;
+}
+
+.labelBlock {
+  text-align: left;
+  margin-bottom: 9px;
+}
+
+.cardLabel {
+  position: relative;
+  display: inline-block;
+  width: 141px;
+  height: 19px;
+
+  text-align: justify;
+  text-justify: inter-character;
+  text-align-last: justify;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* Gray 2 */
+  color: #4f4f4f;
+}
+
+.required {
+  content: "*";
+  position: relative;
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 4px;
+  left: 4px;
+  top: 2px;
+  vertical-align: top;
+
+  /* Orange */
+  background: #f2994a;
+}
+
+.cardInput {
+  position: absolute;
+  left: 0px;
+  width: 447px;
+  height: 52px;
+
+  background: #ffffff;
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  /* identical to box height */
+
+  padding-left: 15px;
+  padding-top: 14px;
+  padding-bottom: 11px;
+  padding-right: 39px;
+
+  /* Gray 1 */
+  color: #333333;
+}
+
+.cardInput::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  /* identical to box height */
+
+  /* Gray 4 */
+  color: #bdbdbd;
+}
+
+.cardLogo {
+  position: absolute;
+  top: 44px;
+  right: 52px;
+  width: 34.43px;
+  height: 22px;
+}
+
+.toastStatus {
+  position: absolute;
+
+  top: 46px;
+  right: 0px;
+
+  width: 17px;
+  height: 13px;
+}
+
+.feedbackMsg {
+  position: absolute;
+  left: 108px;
+  top: 201px;
+
+  padding-top: 9px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  width: 484px;
+  height: 40px;
+
+  text-align: left;
+
+  background: #ffffff;
+
+  /* Red */
+  border: 1px solid #eb5757;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* identical to box height */
+  color: #eb5757;
+}
